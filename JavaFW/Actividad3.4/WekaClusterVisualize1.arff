@@ -1,0 +1,62 @@
+@relation iris_clustered
+
+@attribute Instance_number numeric
+@attribute sepallength numeric
+@attribute sepalwidth numeric
+@attribute petallength numeric
+@attribute petalwidth numeric
+@attribute class {Iris-setosa,Iris-versicolor,Iris-virginica}
+@attribute Cluster {cluster0,cluster1,cluster2}
+
+@data
+0,6.9,3.1,4.9,1.5,Iris-versicolor,cluster1
+1,7.4,2.8,6.1,1.9,Iris-virginica,cluster1
+2,6.6,2.9,4.6,1.3,Iris-versicolor,cluster1
+3,5,3.2,1.2,0.2,Iris-setosa,cluster0
+4,6.3,3.3,6,2.5,Iris-virginica,cluster1
+5,6.3,2.3,4.4,1.3,Iris-versicolor,cluster2
+6,4.5,2.3,1.3,0.3,Iris-setosa,cluster0
+7,5,3.4,1.5,0.2,Iris-setosa,cluster0
+8,6.2,2.9,4.3,1.3,Iris-versicolor,cluster2
+9,6.4,3.2,5.3,2.3,Iris-virginica,cluster1
+10,5.7,2.8,4.5,1.3,Iris-versicolor,cluster2
+11,6.4,2.8,5.6,2.1,Iris-virginica,cluster1
+12,5.2,3.5,1.5,0.2,Iris-setosa,cluster0
+13,5.7,2.9,4.2,1.3,Iris-versicolor,cluster2
+14,6.1,2.9,4.7,1.4,Iris-versicolor,cluster2
+15,6,2.2,5,1.5,Iris-virginica,cluster2
+16,6.3,3.4,5.6,2.4,Iris-virginica,cluster1
+17,5.8,2.7,4.1,1,Iris-versicolor,cluster2
+18,6.2,3.4,5.4,2.3,Iris-virginica,cluster1
+19,6.5,3,5.8,2.2,Iris-virginica,cluster1
+20,6,3.4,4.5,1.6,Iris-versicolor,cluster1
+21,6.5,3,5.2,2,Iris-virginica,cluster1
+22,4.9,2.4,3.3,1,Iris-versicolor,cluster2
+23,5.7,3,4.2,1.2,Iris-versicolor,cluster2
+24,4.4,3.2,1.3,0.2,Iris-setosa,cluster0
+25,7.9,3.8,6.4,2,Iris-virginica,cluster1
+26,5.2,4.1,1.5,0.1,Iris-setosa,cluster0
+27,6,2.9,4.5,1.5,Iris-versicolor,cluster2
+28,5.1,3.8,1.9,0.4,Iris-setosa,cluster0
+29,4.4,3,1.3,0.2,Iris-setosa,cluster0
+30,6.3,3.3,4.7,1.6,Iris-versicolor,cluster1
+31,6.9,3.1,5.1,2.3,Iris-virginica,cluster1
+32,5.4,3,4.5,1.5,Iris-versicolor,cluster2
+33,5.8,4,1.2,0.2,Iris-setosa,cluster0
+34,4.8,3.1,1.6,0.2,Iris-setosa,cluster0
+35,6.7,3.3,5.7,2.1,Iris-virginica,cluster1
+36,5,3.4,1.6,0.4,Iris-setosa,cluster0
+37,4.8,3.4,1.6,0.2,Iris-setosa,cluster0
+38,6.3,2.8,5.1,1.5,Iris-virginica,cluster1
+39,4.9,3.1,1.5,0.1,Iris-setosa,cluster0
+40,5.5,2.5,4,1.3,Iris-versicolor,cluster2
+41,4.3,3,1.1,0.1,Iris-setosa,cluster0
+42,5.8,2.8,5.1,2.4,Iris-virginica,cluster1
+43,5.7,2.5,5,2,Iris-virginica,cluster2
+44,7,3.2,4.7,1.4,Iris-versicolor,cluster1
+45,6.4,2.9,4.3,1.3,Iris-versicolor,cluster2
+46,5.5,2.6,4.4,1.2,Iris-versicolor,cluster2
+47,5.1,3.5,1.4,0.2,Iris-setosa,cluster0
+48,6.4,2.7,5.3,1.9,Iris-virginica,cluster1
+49,6.3,2.5,4.9,1.5,Iris-versicolor,cluster2
+50,7.7,3,6.1,2.3,Iris-virginica,cluster1

@@ -1,0 +1,82 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {iris}
+@attribute Key_Run {1}
+@attribute Key_Fold {1,2,3,4,5,6,7,8,9,10}
+@attribute Key_Scheme {weka.classifiers.meta.FilteredClassifier}
+@attribute Key_Scheme_options {'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes'}
+@attribute Key_Scheme_version_ID {-4523450618538717400}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Matthews_correlation numeric
+@attribute Area_under_ROC numeric
+@attribute Area_under_PRC numeric
+@attribute Weighted_avg_true_positive_rate numeric
+@attribute Weighted_avg_false_positive_rate numeric
+@attribute Weighted_avg_true_negative_rate numeric
+@attribute Weighted_avg_false_negative_rate numeric
+@attribute Weighted_avg_IR_precision numeric
+@attribute Weighted_avg_IR_recall numeric
+@attribute Weighted_avg_F_measure numeric
+@attribute Weighted_avg_matthews_correlation numeric
+@attribute Weighted_avg_area_under_ROC numeric
+@attribute Weighted_avg_area_under_PRC numeric
+@attribute Unweighted_macro_avg_F_measure numeric
+@attribute Unweighted_micro_avg_F_measure numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute UserCPU_Time_millis_training numeric
+@attribute UserCPU_Time_millis_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Coverage_of_Test_Cases_By_Regions numeric
+@attribute Size_of_Predicted_Regions numeric
+@attribute Summary string
+
+@data
+
+iris,1,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,14,1,0,93.333333,6.666667,0,0.9,0.048235,0.20292,10.852842,43.045884,23.774438,4.630172,19.144265,1.584963,0.308678,1.276284,21.469364,1.431291,1354.566045,1,5,0,0,1,10,0,0,1,1,1,1,1,1,0.933333,0.033333,0.966667,0.066667,0.944444,0.933333,0.93266,0.906276,1,1,0.93266,0.933333,0,0,0,0,0,0,5126,10633,2353,93.333333,35.555556,?
+iris,1,2,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,15,0,0,100,0,0,1,0.000068,0.000229,0.015329,0.048637,23.774438,0.002212,23.772225,1.584963,0.000147,1.584815,23.772225,1.584815,1499.860414,1,5,0,0,1,10,0,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,5126,10633,2353,100,33.333333,?
+iris,1,3,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,15,0,0,100,0,0,1,0.002839,0.009611,0.63878,2.038781,23.774438,0.093696,23.680742,1.584963,0.006246,1.578716,23.680742,1.578716,1494.088452,1,5,0,0,1,10,0,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,5126,10633,2353,100,33.333333,?
+iris,1,4,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,15,0,0,100,0,0,1,0.003052,0.011481,0.68679,2.435405,23.774438,0.101299,23.673139,1.584963,0.006753,1.578209,23.673139,1.578209,1493.608762,1,5,0,0,1,10,0,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,5126,10633,2353,100,35.555556,?
+iris,1,5,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,13,2,0,86.666667,13.333333,0,0.8,0.088267,0.296058,19.860036,62.803416,23.774438,14.900438,8.873999,1.584963,0.993363,0.5916,19.454875,1.296992,1227.465945,1,5,0,0,1,10,0,0,1,1,1,1,1,1,0.866667,0.066667,0.933333,0.133333,0.866667,0.866667,0.866667,0.8,0.986667,0.977778,0.866667,0.866667,0,0,0,0,0,0,5126,10633,2353,86.666667,33.333333,?
+iris,1,6,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,14,1,0,93.333333,6.666667,0,0.9,0.068072,0.195051,15.316259,41.376519,23.774438,3.476042,20.298396,1.584963,0.231736,1.353226,20.628941,1.375263,1301.541245,1,5,0,0,1,10,0,0,1,1,1,1,1,1,0.933333,0.033333,0.966667,0.066667,0.944444,0.933333,0.93266,0.906276,1,1,0.93266,0.933333,0,0,0,0,0,0,5126,10633,2353,100,40,?
+iris,1,7,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,15,0,0,100,0,0,1,0.015948,0.046147,3.588406,9.789181,23.774438,0.556125,23.218313,1.584963,0.037075,1.547888,23.218313,1.547888,1464.912435,1,5,0,0,1,10,0,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,5126,10633,2353,100,40,?
+iris,1,8,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,12,3,0,80,20,0,0.7,0.136983,0.347334,30.821287,73.680756,23.774438,67.917405,-44.142968,1.584963,4.527827,-2.942865,17.106839,1.140456,1079.321372,1,5,0,0,1,10,0,0,1,1,1,1,1,1,0.8,0.1,0.9,0.2,0.875,0.8,0.78022,0.738713,0.916667,0.829815,0.78022,0.8,0,0,0,0,0,0,5126,10633,2353,86.666667,37.777778,?
+iris,1,9,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,12,3,0,80,20,0,0.7,0.132952,0.363922,29.914235,77.199545,23.774438,33.736042,-9.961604,1.584963,2.249069,-0.664107,17.277071,1.151805,1090.061814,1,5,0,0,1,10,0,0,1,1,1,1,1,1,0.8,0.1,0.9,0.2,0.875,0.8,0.78022,0.738713,1,1,0.78022,0.8,0,0,0,0,0,0,5126,10633,2353,80,33.333333,?
+iris,1,10,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.supervised.instance.StratifiedRemoveFolds -S 3 -N 10 -F 1\" -S 1 -W weka.classifiers.bayes.NaiveBayes',-4523450618538717400,20180806.0736,135,15,12,3,0,80,20,0,0.7,0.132661,0.363307,29.848699,77.069096,23.774438,29.985234,-6.210796,1.584963,1.999016,-0.414053,17.286619,1.152441,1090.664201,1,5,0,0,1,10,0,0,1,1,1,1,1,1,0.8,0.1,0.9,0.2,0.875,0.8,0.78022,0.738713,1,1,0.78022,0.8,0,0,0,0,0,0,5126,10633,2353,80,33.333333,?
